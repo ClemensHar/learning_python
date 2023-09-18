@@ -1,13 +1,17 @@
 import pytest
 
+
 @pytest.mark.sanity
 def testLogin():
     print("Login Successful")
 
+
 def testLogoff():
     print("Logoff Successful")
 
+
 def testCalculation():
-    assert 2+2 == 4
+    assert 2 + 2 == 4
+
 
 print("This script ran")

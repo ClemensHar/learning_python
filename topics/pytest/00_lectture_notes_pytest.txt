@@ -1,34 +1,34 @@
 # pytest files should have the format "test_..." or ".._test.py"
 # tests methods/functions should start with keyword "test"
 
-## execute all test cases in directory and its subdirectory 
-pytest 
+## execute all test cases in directory and its subdirectory
+pytest
 
-## add more detail to the test results 
-pytest -v 
+## add more detail to the test results
+pytest -v
 
 ## print the "print()" statements of the testcases
 pytest -v -s
 
-## specify file name and testname to only execute certain files 
+## specify file name and testname to only execute certain files
 pytest topics\pytest\test_login.py -vsk testLog
 
-# grouping testcases 
+# grouping testcases
 ## custom markers: add markers to group test cases -> only run test which are marked with marker1
 ## predefined markers: pytest --markers --> shows predefined markers
 pytest -v -m marker1
 
 # Fixture
 ## define a setup method with the decorator @pytest.fixture
-## setup: this function, when an argument of a test method, is being called prior to the test 
-## "teardown": what comes aftert the yiel statement is performed after the test case 
+## setup: this function, when an argument of a test method, is being called prior to the test
+## "teardown": what comes aftert the yiel statement is performed after the test case
 
 # Conftest.py
-## configuration for testing 
-## gather general fixtures/setup methods to be reused 
-## pytest.ficture(autouse=True)  ---> this method will always be called when running a test. 
-## scope: when setting scope="session" the setup and teardown will be only performed at beginning and end of the test session 
+## configuration for testing
+## gather general fixtures/setup methods to be reused
+## pytest.ficture(autouse=True)  ---> this method will always be called when running a test.
+## scope: when setting scope="session" the setup and teardown will be only performed at beginning and end of the test session
 
-# Parameterization 
+# Parameterization
 ## Option A: via fixtures
-## Option B: via markers 
+## Option B: via markers

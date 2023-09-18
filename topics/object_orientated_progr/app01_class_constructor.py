@@ -1,6 +1,5 @@
 from item import Item
 
-
 item1 = Item("Phone", 100, 5)
 item2 = Item("Laptop", 1000, 3)
 item3 = Item("Cable", 10, 5)

@@ -1,5 +1,5 @@
 # learning_python
-Collection of scripts and notebooks for learning basic python skills. 
+Collection of scripts and notebooks for learning basic python skills.
 
 ## Git instructions
 
@@ -45,13 +45,13 @@ Collection of scripts and notebooks for learning basic python skills.
     pip install .
     ```
     OR
-    
+
     Install the python package in development mode in the first place
     ```
     cd /path/to/git/submodule
     pip install -e .
     ```
-    
+
     ---
 
 You could use [pyenv](https://realpython.com/intro-to-pyenv/) or [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html) to
