@@ -6,7 +6,7 @@ Collection of scripts and notebooks for learning basic python skills.
 - Cloning the repository for the first time, use
 
     ```
-    git clone --recursive git@github.com:polytech-com/python-packages.git
+    git clone --recursive git@github.com:ClemensHar/learning_python.git
     ```
 
 - Already have the repository cloned and you want to pull all the contents
